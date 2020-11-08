@@ -257,8 +257,34 @@ address{
 .scrolled-up{
 	transform:translateY(0); transition: all 0.3s ease-in-out;
 }
-
-
+.my_font_title{
+	font-weight: 900 !important;
+	color: white;
+	padding: 30px 20px 10px 20px;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.my_font_sub{
+	font-weight: 500 !important;
+	font-size: 28pt;
+	color: white;
+	padding: 10px 20px 20px 20px;
+}
+.my_jumbo{
+	background-image: url("../images/hero_image.png");
+	background-size: cover;
+}
+.linkeypluslogo{
+	height: 90px;
+	padding: 20px 20px 20px 20px;
+}
+#banner_linkey{
+	height: 600px;
+	padding: 30px 0px 30px 0px;
+}
+.my_jumbo_overlay{
+	
+	background: rgba(0,0,0,0.2);
+}
 
 
 
