@@ -231,6 +231,15 @@ transition: all 0.3s linear;}
 	border-color: #A92C3D !important;
 }
 
+.my_cell{
+	background-color: cadetblue;
+	border: 1px solid blue;
+}
+address{
+	font-size: 15px !important;
+	line-height: 200%;
+}
+
 
 
 
