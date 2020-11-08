@@ -218,6 +218,19 @@ transition: all 0.3s linear;}
 .contact-title-lp{ font-size:30px; line-height:50px; color:#707070; font-weight:700; padding-bottom:80px; }
 .contact-btn-main-lp{}
 /*--------------- LINKEY_END --------------*/
+/* Custom */
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+	background-color: #A92C3D !important;
+	color: white !important;
+	border-color: #A92C3D !important;
+	
+} 
+.btn-primary:hover{
+	background-color: white !important;
+	color: #A92C3D !important;
+	border-color: #A92C3D !important;
+}
+
 
 
 
