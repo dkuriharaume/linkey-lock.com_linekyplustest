@@ -200,7 +200,7 @@ transition: all 0.3s linear;}
 
 .attachment-box-lp{ width:calc(50% - 60px); margin-right:120px; border-radius:20px; height:416px; float:left; }
 .attachment-box-lp:nth-child(2n){ margin-right:0px; }
-.attachment-box-overlay-lp{ height:100%; border-radius:20px; display:flex; text-align:center; align-items:center; width:100%; position:relative; }
+.attachment-box-overlay-lp{ height:100%; border-radius:20px; display:flex; text-align:center; align-items:center; width:100%; position:relative; background-color: rgba(0,0,0,0.5);}
 .attachment-text-lp{ font-size:50px; line-height:60px; color:#fff; width:100%; font-weight:700; padding-bottom:50px; }
 .attachment-btn-lp{ position:absolute; bottom:0; width:100%; text-align:center; left:0; padding-bottom:90px; }
 .attachment-btn-lp a{ font-size:28px; line-height:37px; color:#fff;  }
@@ -260,14 +260,14 @@ address{
 .my_font_title{
 	font-weight: 900 !important;
 	color: white;
-	padding: 30px 20px 10px 20px;
+	padding: 100px 20px 20px 20px;
 	text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 .my_font_sub{
 	font-weight: 500 !important;
 	font-size: 28pt;
 	color: white;
-	padding: 10px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
 }
 .my_jumbo{
 	background-image: url("../images/hero_image.png");
