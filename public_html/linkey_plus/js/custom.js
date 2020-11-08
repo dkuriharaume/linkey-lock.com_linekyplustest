@@ -18,16 +18,58 @@ $('#gototop'). click(function() {
 	}, 1000);
 });
 
-$('#mngbtn'). click(function() {
+$('#mybtn_chara'). click(function() {
 	$('html, body'). animate({
-		scrollTop: document.getElementById("mng_test").getBoundingClientRect().top
+		scrollTop: $("#my_chara").offset().top
 	}, 1000);
+	
+	$(".navbar-collapse").collapse("hide");
 });
 
-// $(document).on('click','#gototop',function(){
-//     // document.body.scrollTop = 0;
-// 	document.documentElement.scrollTop = 0;
-// });
+$('#mybtn_overview'). click(function() {
+	$('html, body'). animate({
+		scrollTop: $("#my_overview").offset().top
+	}, 1000);
+	
+	$(".navbar-collapse").collapse("hide");
+});
+
+$('#mybtn_app'). click(function() {
+	$('html, body'). animate({
+		scrollTop: $("#my_app").offset().top
+	}, 1000);
+	
+	$(".navbar-collapse").collapse("hide");
+});
+$('#mybtn_install'). click(function() {
+	$('html, body'). animate({
+		scrollTop: $("#my_install").offset().top
+	}, 1000);
+	
+	$(".navbar-collapse").collapse("hide");
+});
+$('#mybtn_scenes'). click(function() {
+	$('html, body'). animate({
+		scrollTop: $("#my_scenes").offset().top
+	}, 1000);
+	
+	$(".navbar-collapse").collapse("hide");
+});
+$('#mybtn_features'). click(function() {
+	$('html, body'). animate({
+		scrollTop: $("#my_features").offset().top
+	}, 1000);
+	
+	$(".navbar-collapse").collapse("hide");
+});
+$('.mybtn_top'). click(function() {
+	$('html, body'). animate({
+		scrollTop: 0
+	}, 1000);
+	
+	$(".navbar-collapse").collapse("hide");
+});
+
 
 function scrollFunc() {
     if (document.documentElement.scrollTop > 300) {
