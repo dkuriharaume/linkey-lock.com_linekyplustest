@@ -241,6 +241,8 @@ address{
 }
 #thankyou{
 	background-image: url(../images/company_back.png);
+	padding: 100px 0px 100px 0px;
+	text-align: center;
 }
 .smart-scroll{
 	position: fixed;
