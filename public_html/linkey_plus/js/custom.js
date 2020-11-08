@@ -18,10 +18,17 @@ $('#gototop'). click(function() {
 	}, 1000);
 });
 
-$(document).on('click','#gototop',function(){
-    // document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+$('#mngbtn'). click(function() {
+	$('html, body'). animate({
+		scrollTop: document.getElementById("mng_test").getBoundingClientRect().top
+	}, 1000);
 });
+
+// $(document).on('click','#gototop',function(){
+//     // document.body.scrollTop = 0;
+// 	document.documentElement.scrollTop = 0;
+// });
+
 function scrollFunc() {
     if (document.documentElement.scrollTop > 300) {
         document.getElementById("gototop").style.display = "flex";
