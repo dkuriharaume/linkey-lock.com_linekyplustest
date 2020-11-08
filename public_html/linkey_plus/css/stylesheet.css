@@ -48,7 +48,7 @@ transition: all 0.3s linear;}
 .white-title-hp h2{ color:#fff6f7; font-size:35px; line-height:45px; text-shadow:0px 3px 7px rgba(166,172,178,0.35); }
 .white-title-hp p{ font-weight:500; color:#adcef2; }
 
-.common-btn-hp{ color:#fff; min-width:534px; border:2px solid #A92C3D; border-radius:12px; background:#A92C3D; display:inline-block; padding:27px 15px; font-size:28px;  box-shadow:10px 10px 50px rgba(0,0,0,0.1); text-align:center; position:relative; }
+.common-btn-hp{ color:#fff; max-width:320px; border:2px solid #A92C3D; border-radius:12px; background:#A92C3D; display:inline-block; padding:27px 15px; font-size:28px;  box-shadow:10px 10px 50px rgba(0,0,0,0.1); text-align:center; position:relative; }
 .common-btn-hp:after{ content:''; position:absolute; right:-1px; top:50%; background:#fff; height:2px; width:94px; }
 .common-btn-hp:hover{ background:#fff; color:#A92C3D;}
 .common-btn-hp:hover:after{ background:#A92C3D;}
@@ -274,7 +274,7 @@ address{
 	background-size: cover;
 }
 .linkeypluslogo{
-	height: 90px;
+	width:300px;
 	padding: 20px 20px 20px 20px;
 }
 #banner_linkey{
